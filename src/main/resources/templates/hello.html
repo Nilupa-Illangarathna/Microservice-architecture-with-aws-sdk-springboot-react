@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World Page</title>
+</head>
+<body>
+    <h1>Your Query Results</h1>
+    <h4>Query Results:</h4>
+    <pre th:text="${queryResults}"></pre>
+    <form id="myResponce" action="/back" method="post">
+        <button type="submit" id="submitBtn">Back</button>
+    </form>
+    <script>
+        const myForm = document.getElementById("myResponce");
+        const submitBtn = document.getElementById("submitBtn");
+
+        myForm.addEventListener("input", () => {
+            submitBtn.disabled = !myForm.checkValidity();
+        });
+    </script>
+</body>
+</html>
