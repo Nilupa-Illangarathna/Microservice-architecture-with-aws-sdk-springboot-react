@@ -49,12 +49,3 @@ public class Config {
         this.outputLocation = outputLocation;
     }
 }
-
-
-
-
-
-// outputLocation="s3://nilupa-test-s3/Athena/"
-// database="nilupa_athena_db"
-// secretKey=lAH6w4OfnROVXmdEna4uqG3QaiN9DId+5qCtJW+k
-// accessKey="AKIAZUNGUZNGPGY2VPHU"

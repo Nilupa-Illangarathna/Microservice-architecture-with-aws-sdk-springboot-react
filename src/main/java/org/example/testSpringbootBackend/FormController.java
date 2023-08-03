@@ -42,11 +42,14 @@ public class FormController {
         // Concatenate the query string with fields 1, 2, and 4
         String query = field3;
 
+        int querylength = query.length();
+
         // Execute the Athena query and get the results
         String queryResults = athenaService.executeAthenaQuery(query , accessKey, secretKey, database, outputS3bucketlocation);
 
         // Pass the query results to the "hello" page
         model.addAttribute("queryResults", queryResults);
+        model.addAttribute("Query_length", querylength);
 
         return "hello";
     }
