@@ -9,6 +9,7 @@ This project is a Spring Boot microservice architecture prototype designed for h
 [![Maintainability](https://api.codeclimate.com/v1/badges/your-badge-token/maintainability)](https://codeclimate.com/github/your-username/your-repo/maintainability)
 
 
+
 ## Backend
 
 ### ConfigFileRelated Package
