@@ -5,6 +5,7 @@ This project is a Spring Boot microservice architecture prototype designed for h
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-green.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-17.0.2-blue.svg)](https://reactjs.org/)
 [![AWS SDK for Java](https://img.shields.io/badge/AWS%20SDK%20for%20Java-2.17.112-orange.svg)](https://aws.amazon.com/sdk-for-java/)
+![Microservices](https://img.shields.io/badge/architecture-microservices-brightgreen.svg)
 
 
 
