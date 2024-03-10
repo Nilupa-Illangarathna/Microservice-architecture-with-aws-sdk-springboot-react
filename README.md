@@ -2,11 +2,10 @@
 
 This project is a Spring Boot microservice architecture prototype designed for handling AWS Athena queries. The application consists of a backend implemented in Java using Spring Boot, and a frontend implemented in React. The goal is to facilitate the execution of Athena queries through a user-friendly web interface.
 
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-green.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-17.0.2-blue.svg)](https://reactjs.org/)
 [![AWS SDK for Java](https://img.shields.io/badge/AWS%20SDK%20for%20Java-2.17.112-orange.svg)](https://aws.amazon.com/sdk-for-java/)
-[![Coverage Status](https://coveralls.io/repos/github/your-username/your-repo/badge.svg?branch=main)](https://coveralls.io/github/your-username/your-repo?branch=main)
-[![Maintainability](https://api.codeclimate.com/v1/badges/your-badge-token/maintainability)](https://codeclimate.com/github/your-username/your-repo/maintainability)
+
 
 
 
